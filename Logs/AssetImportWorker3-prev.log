@@ -9,11 +9,11 @@ D:\Program Files\Unity Hub\6000.0.35f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker1
+AssetImportWorker3
 -projectPath
 D:/Edgerunners_final
 -logFile
-Logs/AssetImportWorker1.log
+Logs/AssetImportWorker3.log
 -srvPort
 60725
 -job-worker-count
@@ -59,12 +59,12 @@ D:/Edgerunners_final
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16660]  Target information:
+Player connection [2636]  Target information:
 
-Player connection [16660]  * "[IP] 192.168.2.103 [Port] 0 [Flags] 2 [Guid] 1575768729 [EditorId] 1575768729 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VAKQ1F3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [2636]  * "[IP] 192.168.2.103 [Port] 0 [Flags] 2 [Guid] 1681920947 [EditorId] 1681920947 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VAKQ1F3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [16660] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [16660] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [2636] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [2636] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,7 +76,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 34.12 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 6.59 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.35f1 (9a3bc604008a)
 [Subsystems] Discovering subsystems at path D:/Program Files/Unity Hub/6000.0.35f1/Editor/Data/Resources/UnitySubsystems
@@ -94,47 +94,47 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/Unity Hub/6000.0.35f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/Unity Hub/6000.0.35f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Program Files/Unity Hub/6000.0.35f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/Unity Hub/6000.0.35f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Program Files/Unity Hub/6000.0.35f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: D:/Program Files/Unity Hub/6000.0.35f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.003963 seconds.
-- Loaded All Assemblies, in  0.370 seconds
+Registered in 0.004079 seconds.
+- Loaded All Assemblies, in  0.431 seconds
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.284 seconds
-Domain Reload Profiling: 654ms
-	BeginReloadAssembly (155ms)
+- Finished resetting the current domain, in  0.295 seconds
+Domain Reload Profiling: 726ms
+	BeginReloadAssembly (152ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (33ms)
+	RebuildCommonClasses (37ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (133ms)
-		LoadAssemblies (155ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (191ms)
+		LoadAssemblies (152ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (130ms)
-			TypeCache.Refresh (128ms)
-				TypeCache.ScanAssembly (116ms)
+		AnalyzeDomain (188ms)
+			TypeCache.Refresh (186ms)
+				TypeCache.ScanAssembly (173ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (284ms)
+	FinalizeReload (295ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (245ms)
+		SetupLoadedEditorAssemblies (257ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
+			InitializePlatformSupportModulesInManaged (27ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (42ms)
-			ProcessInitializeOnLoadAttributes (128ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (133ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -144,8 +144,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.655 seconds
-Refreshing native plugins compatible for Editor in 6.24 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.611 seconds
+Refreshing native plugins compatible for Editor in 5.37 ms, found 2 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -177,90 +177,50 @@ UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
-Refreshing native plugins compatible for Editor in 5.23 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 34.54 ms, found 2 plugins.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.711 seconds
-Domain Reload Profiling: 1365ms
-	BeginReloadAssembly (189ms)
+- Finished resetting the current domain, in  0.685 seconds
+Domain Reload Profiling: 1295ms
+	BeginReloadAssembly (199ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (389ms)
-		LoadAssemblies (352ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (336ms)
+		LoadAssemblies (331ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (156ms)
-			TypeCache.Refresh (124ms)
-				TypeCache.ScanAssembly (107ms)
-			BuildScriptInfoCaches (27ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (711ms)
+		AnalyzeDomain (128ms)
+			TypeCache.Refresh (97ms)
+				TypeCache.ScanAssembly (83ms)
+			BuildScriptInfoCaches (23ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (685ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (609ms)
+		SetupLoadedEditorAssemblies (588ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (68ms)
-			ProcessInitializeOnLoadAttributes (388ms)
-			ProcessInitializeOnLoadMethodAttributes (146ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (396ms)
+			ProcessInitializeOnLoadMethodAttributes (123ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 6.86 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 4.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3238 unused Assets / (1.0 MB). Loaded Objects now: 3797.
-Memory consumption went from 170.7 MB to 169.7 MB.
-Total: 9.531700 ms (FindLiveObjects: 0.350700 ms CreateObjectMapping: 0.149900 ms MarkObjects: 8.196700 ms  DeleteObjects: 0.833200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 56323.671181 seconds.
-  path: Assets/Packs/ProCore/ProBuilder/Icons/Toolbar/Button_Normal_Horizontal.png
-  artifactKey: Guid(887de6fd9b92d164c8e0724db7485d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/ProCore/ProBuilder/Icons/Toolbar/Button_Normal_Horizontal.png using Guid(887de6fd9b92d164c8e0724db7485d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db1b67013082ee05c873af941f354b57') in 0.1871826 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Packs/ProCore/ProBuilder/About/Images/Banner.png
-  artifactKey: Guid(549ff69cefce9de4b9bca905c53fdafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/ProCore/ProBuilder/About/Images/Banner.png using Guid(549ff69cefce9de4b9bca905c53fdafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae83c2e0cd002513a249fe7bc4ded6cb') in 0.0400026 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Packs/ProCore/ProBuilder/About/Images/Banner_Hover.png
-  artifactKey: Guid(0bbc52f3a0f2f114baa8507d90afb6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/ProCore/ProBuilder/About/Images/Banner_Hover.png using Guid(0bbc52f3a0f2f114baa8507d90afb6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82fb43d6e3b9675a8fd587e7d60a3665') in 0.0134445 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Packs/ProCore/ProBuilder/Icons/Toolbar/AltButton_Pressed.png
-  artifactKey: Guid(1b0aef1c7b005484faff88a61d887705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/ProCore/ProBuilder/Icons/Toolbar/AltButton_Pressed.png using Guid(1b0aef1c7b005484faff88a61d887705) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4bf102af08807a155716d0370c5346f') in 0.0103505 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Packs/ProCore/ProBuilder/Icons/Toolbar/AltButton_Normal.png
-  artifactKey: Guid(392516b30da26d1439015389f827d2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packs/ProCore/ProBuilder/Icons/Toolbar/AltButton_Normal.png using Guid(392516b30da26d1439015389f827d2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be4d40c28722a6c55f7672d51805f62d') in 0.0135748 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+Unloading 3238 unused Assets / (0.8 MB). Loaded Objects now: 3797.
+Memory consumption went from 170.6 MB to 169.8 MB.
+Total: 8.782400 ms (FindLiveObjects: 0.332600 ms CreateObjectMapping: 0.135900 ms MarkObjects: 7.632200 ms  DeleteObjects: 0.681200 ms)
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
